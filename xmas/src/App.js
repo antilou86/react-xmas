@@ -11,10 +11,12 @@ function App() {
     <Router>
       <div className="App">
         <Navbar/>
+        <h1>Designs By Lealyn</h1>
           <Switch>
             <Route exact path="/" component={Works}/>
             <Route path="/about" component={Artist}/>
             <Route path="/contact" component={Contact}/>
+            
           </Switch>
         <Footer/>
       </div>
