@@ -127,5 +127,9 @@ h1 {
       padding-top: 10px;
       padding-bottom:10px;
     }
+    .subnav {
+      display: flex;
+      flex-flow: column nowrap;
+    }
   }
 
