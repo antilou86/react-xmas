@@ -4,7 +4,7 @@ const Footer = () => {
 
 return(
     <footer>
-        <p>designed by <a href="louguzman.com">Lou</a></p>
+        <p>designed by <a href="http://www.louguzman.com">Lou</a></p>
     </footer>
 )}
 

@@ -90,9 +90,11 @@ h1 {
 
 .imageContainer {
   width: 100%;
-  flex-direction: row wrap;
+  display: flex;
+  flex-flow: row wrap;
   align-items: flex-start;
   align-content: space-around;
+  margin-left: 40px;
 }
 
 .img {
@@ -100,6 +102,22 @@ h1 {
   margin: 10px;
   height:auto;
 }
+
+.socials {
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.social-card {
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 10%;
+}
+
 
 @media only screen 
   and (min-device-width: 320px) {

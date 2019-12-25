@@ -21,6 +21,7 @@ function Works() {
 
                 <div className="works-container">
                     <Switch>
+                        <Route exact path="/" component={WorksDrawings}/>
                         <Route path="/drawings" component={WorksDrawings}/>
                         <Route path="/pysanki" component={WorksPysanki}/>
                         <Route path="/woodburning" component={WorksWoodburning}/>
