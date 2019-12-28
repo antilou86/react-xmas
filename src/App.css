@@ -2,6 +2,13 @@
 /* blue 150, 197, 187 */
 /* kinda grey 147, 172, 182 */
 
+.App {
+  width:100%;
+  text-align: center;
+  background-color: rgb(147, 172, 182);
+  min-width: 350px;
+}
+
 .navBar {
   width:100%;
   text-align: left;
@@ -10,14 +17,15 @@
   align-items: center;
   min-width: 350px;
 }
+
 footer {
   color: grey;
   margin-top: 0;
 }
-
 footer a {
   color: rgba(0, 0, 255, 0.377)
 }
+
 h1 {
   text-align: left;
   border-bottom: solid black;
@@ -36,6 +44,7 @@ h1 {
 
 .navItems .link {
   display: flex;
+  width:30%;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10px;
@@ -84,11 +93,6 @@ h1 {
   min-height: 100vh;
 
 }
-.App {
-  text-align: center;
-  background-color: rgb(147, 172, 182);
-  min-width: 350px;
-}
 .works-container {
   width: 100%;
   min-height: 100vh;
@@ -134,11 +138,16 @@ h1 {
       padding-top: 10px;
       padding-bottom:10px;
     }
+    .navItems .link:hover{
+      background-color: rgb(169, 211,255)
+    }
     .subnav {
       display: flex;
       flex-flow: column nowrap;
     }
-
+    .subnav .link:hover{
+      background-color: rgb(169, 211,255);
+    }
     .img {
       width:78%;
       margin: 10px;
