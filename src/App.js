@@ -13,10 +13,9 @@ function App() {
         <Navbar/>
         <h1>Designs By Lealyn</h1>
           <Switch>
-            <Route exact path="/" component={Works}/>
-            <Route path="/about" component={Artist}/>
+            <Route exact path="/" component={Artist}/>
+            <Route path="/works" component={Works}/>
             <Route path="/contact" component={Contact}/>
-            
           </Switch>
         <Footer/>
       </div>
