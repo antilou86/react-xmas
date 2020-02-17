@@ -6,10 +6,8 @@ const Artist = () => {
     // need a black image to transition from (easy)
     // and an image to transition to. (Leah's choice) - background image for currently built component.
         // new div/component should load z-indexed higher than background one and be solid pure black. 
-        // opacity will transition from 1 down to 0
-        
+        // opacity will transition from 1 down to 0 on page render
 
-    
     return(
         <div className="artist">
 
