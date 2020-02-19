@@ -82,11 +82,10 @@ h1 {
 }
 
 .artist {
-  width: 85%;
+  width: 100%;
   min-height: 100vh;
-  margin-left:5%;
-  margin-right:15%;
-  text-align: left;
+  text-align: center;
+  color: black;
 }
 .contact {
   width: 100%;
@@ -128,6 +127,7 @@ h1 {
   text-align: center;
   width: 10%;
 }
+
 
 
 @media only screen 
